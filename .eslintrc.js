@@ -7,6 +7,7 @@ module.exports = {
 		"@typescript-eslint/no-extra-semi": "off",
 		"no-mixed-spaces-and-tabs": "off",
 		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-empty-function": "off",
 		indent: ["off", "tab"],
 	},
 };

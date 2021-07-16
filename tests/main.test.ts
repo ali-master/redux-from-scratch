@@ -1,7 +1,7 @@
-import { createStore } from "./main";
-import { combineReducers } from "./combineReducer";
+import { createStore } from "../src/main";
+import { combineReducers } from "../src/combineReducer";
 // Types
-import type { Reducer } from "./main.types";
+import type { Reducer } from "../src/main.types";
 
 interface PersonReducer {
 	name: string;
