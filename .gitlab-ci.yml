@@ -11,11 +11,11 @@ stages:
 lint-and-test:
   stage: test
   script:
-    - yarn install
-    - yarn add -D esbuild
-    - yarn test
-    - yarn lint
-    - yarn build-all
+    - npm install
+    - npm add -D esbuild
+    - npm test
+    - npm lint
+    - npm build-all
 
 # Deploy docs to Gitlab pages
 pages:
@@ -23,8 +23,8 @@ pages:
   only:
     - master
   script:
-    - yarn install
-    - yarn docs
+    - npm install
+    - npm docs
     - mv docs public
   artifacts:
     paths:

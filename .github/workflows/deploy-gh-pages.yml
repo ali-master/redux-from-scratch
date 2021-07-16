@@ -21,8 +21,8 @@ jobs:
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
-    - run: yarn install
-    - run: yarn docs
+    - run: npm install
+    - run: npm docs
 
     - run: touch docs/.nojekyll
     - name: Deploy docs 🚀
